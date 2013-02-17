@@ -1,0 +1,32 @@
+{
+  "name": "legendary-debug",
+  "version": "0.1.0",
+  "description": "Debugging utilities for Legendary promises",
+  "homepage": "https://github.com/novemberborn/legendary-debug",
+  "bugs": {
+    "url": "https://github.com/novemberborn/legendary-debug/issues"
+  },
+  "author": {
+    "name": "Mark Wubben",
+    "url": "http://novemberborn.net"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/novemberborn/legendary-debug.git"
+  },
+  "devDependencies": {
+    "mocha": ">= 1.7.4",
+    "sinon": ">= 1.5.2",
+    "glob": "~3.1.14"
+  },
+  "scripts": {
+    "test": "tests/runner.js"
+  },
+  "dependencies": {
+    "optimist": "~0.3.5",
+    "eyes": "~0.1.8"
+  },
+  "peerDependencies": {
+    "legendary": "0.6.x"
+  }
+}
